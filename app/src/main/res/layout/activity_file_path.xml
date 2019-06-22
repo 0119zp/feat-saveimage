@@ -10,8 +10,54 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tv_file_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7EDD6"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="获取内部存储路径"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/tv_intornal_file_path"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7EDD6"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="获取外部存储路径"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/tv_extornal_file_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7EDD6"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="获取存储路径"
+            android:textColor="#E91E63"/>
+
+        <TextView
+            android:id="@+id/tv_system_file_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:textSize="14sp"/>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
